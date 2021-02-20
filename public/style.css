@@ -1,0 +1,39 @@
+.centered {
+  text-align: center;
+}
+
+.messages {
+  position: absolute;
+  top: 10%;
+  left: 30vw;
+  border: solid thin #FAFAFA;
+  width: 40vw;
+  height: 60vh;
+  overflow: auto;
+  -webkit-overflow: auto;
+}
+
+* {
+  color: whitesmoke;
+  background-color: #111;
+}
+
+.sendinginterface {
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 30vw;
+  height: 20vh;
+  width: 40vw;
+  color: whitesmoke;
+  background-color: #333;
+  border: solid thin #FAFAFA;
+}
+
+.sendinginterface input {
+  border-radius: 20px;
+  width: 80%;
+  height: 50px;
+  color: whitesmoke;
+  background-color: #333222333;
+}
